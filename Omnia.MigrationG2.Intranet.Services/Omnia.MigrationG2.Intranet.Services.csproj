@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Camlex.NET\Camlex.NET.csproj" />
+    <ProjectReference Include="..\Omnia.MigrationG2.Foundation.Core\Omnia.MigrationG2.Foundation.Core.csproj" />
+    <ProjectReference Include="..\Omnia.MigrationG2.Intranet.Core\Omnia.MigrationG2.Intranet.Core.csproj" />
+    <ProjectReference Include="..\Omnia.MigrationG2.Intranet.Repositories\Omnia.MigrationG2.Intranet.Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Client.Policy.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.Office.Client.Policy.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Client.TranslationServices.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.Office.Client.TranslationServices.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ProjectServer.Client.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.ProjectServer.Client.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.DocumentManagement.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.DocumentManagement.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Sharepoint.Client.Publishing.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Publishing.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Runtime.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime.Windows">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Runtime.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Search.Applications.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Search.Applications.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Search.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Search.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Taxonomy.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Taxonomy.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.UserProfiles.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.UserProfiles.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.WorkflowServices.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.WorkflowServices.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

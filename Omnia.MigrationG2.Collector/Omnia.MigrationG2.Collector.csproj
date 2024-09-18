@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Omnia.MigrationG2.Intranet.Services\Omnia.MigrationG2.Intranet.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Client.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Runtime.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Runtime.Windows">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Runtime.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Taxonomy.Portable">
+      <HintPath>..\Assemblies\CSOM\Microsoft.SharePoint.Client.Taxonomy.Portable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

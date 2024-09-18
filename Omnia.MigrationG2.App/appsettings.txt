@@ -1,0 +1,35 @@
+{
+  "OmniaSettings": { Omnia Cloud g1 cloud 3
+    "ClientId": "", 
+    "ClientSecret": ""
+  },
+  "ConnectionStrings": { // DB
+    "Foundation": "",
+    "Intranet": ""
+  },
+  "MigrationSettings": {
+    "CheckNavigationNodes": true,  //intranet
+    "CheckNewsCenters": true,      //News
+    "CheckCommonLinks": false,
+    "CheckMyLinks": false,
+    "CheckImportantAnnouncements": false, // ko co ho tro
+    "TenantId": "9ec3eb2d-88cb-43ab-a37a-451daed86d44",
+    "NavigationSourceUrl": "https://besqab.sharepoint.com/sites/intranet",
+    "NewsCenterUrl": "",  // empty thi se get all news center hoac dien 1 news center
+    "Language": "sv-se",
+    "UseSettingsInContentManagement": true,
+    "DefaultPropertiesMappings": {
+      "PageContent": "pagecontent",
+      "PageSummary": "pagesummary",
+      "PageImage": "pageimage",
+      "CreatedBy": "createdby",
+      "CreatedAt": "createdat",
+      "ModifiedBy": "modifiedby",
+      "ModifiedAt": "modifiedat"
+    }
+  },
+  "OutputSettings": {
+    "DataFileName": "Data.[type].besqabchefshandboken.[site].json",
+    "ReportFileName": "Report.[type].besqabchefshandboken.[site].json"
+  }
+}
